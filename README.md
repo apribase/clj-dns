@@ -30,3 +30,8 @@ clj-dns 0.1.0 implements only reverse-dns-lookup.
   (println hostname)
   (println "hostname not found."))
 ```
+
+### Differences from brweber2/clj-dns
+
+[brweber2/clj-dns](http://github.com/brweber2/clj-dns)'s reverse-dns-lookup throws UnknonHostException with printStackTrace because [dnsjava](http://xbill.org/dnsjava)'s `DNSJavaNameService#invoke` is called by `DNSJavaNameServiceDescriptor`.
+
