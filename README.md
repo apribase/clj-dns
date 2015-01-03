@@ -35,3 +35,9 @@ clj-dns 0.1.0 implements only reverse-dns-lookup.
 
 [brweber2/clj-dns](http://github.com/brweber2/clj-dns)'s `reverse-dns-lookup` throws `UnknonHostException` with `printStackTrace` because [dnsjava](http://xbill.org/dnsjava)'s `DNSJavaNameService#invoke` is called by `DNSJavaNameServiceDescriptor`.
 
+## Licence
+
+Copyright (C) 2015 apribase
+
+Distributed under the Eclipse Public License, the same as Clojure.
+
