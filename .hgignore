@@ -1,0 +1,4 @@
+syntax: regexp
+^target/
+^.lein-repl-history
+^.DS_Store
