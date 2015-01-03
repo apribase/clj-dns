@@ -7,7 +7,7 @@ Clojure DNS Library with [dnsjava](http://xbill.org/dnsjava)
 Add the following dependency to your `project.clj`
 
 ```clj
-[net.apribase/clj-dns "0.1.0]
+[net.apribase/clj-dns "0.1.0"]
 ```
 
 ## Lookup
@@ -31,7 +31,7 @@ clj-dns 0.1.0 implements only reverse-dns-lookup.
   (println "hostname not found."))
 ```
 
-### Differences from brweber2/clj-dns
+## Differences from brweber2/clj-dns
 
 [brweber2/clj-dns](http://github.com/brweber2/clj-dns)'s reverse-dns-lookup throws UnknonHostException with printStackTrace because [dnsjava](http://xbill.org/dnsjava)'s `DNSJavaNameService#invoke` is called by `DNSJavaNameServiceDescriptor`.
 
